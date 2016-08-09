@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446" height="526">
+  <style>rect { fill: #ff0000; stroke:black }
+ text { font-size:8px; font-family:verdana; stroke:none }
+ line { fill:none; stroke:#000000; stroke-width:1px; stroke-linecap:round }
+ path { fill:none; stroke:#000000; stroke-width:1px }</style>
+  <g transform="scale(2)">
+    <rect style="fill:DarkOrange" x="1" y="131" width="32" height="20" rx="3" ry="3"/>
+    <text x="17" y="141" text-anchor="middle" dominant-baseline="middle">KING</text>
+    <rect style="fill:HotPink" x="53" y="21" width="40" height="20" rx="3" ry="3"/>
+    <text x="73" y="31" text-anchor="middle" dominant-baseline="middle">JONES</text>
+    <path d="M 33,141 C 43,141 43,31 53,31"/>
+    <rect style="fill:DarkOrange" x="53" y="241" width="40" height="20" rx="3" ry="3"/>
+    <text x="73" y="251" text-anchor="middle" dominant-baseline="middle">CLARK</text>
+    <path d="M 33,141 C 43,141 43,251 53,251"/>
+    <rect style="fill:LightGreen" x="53" y="141" width="40" height="20" rx="3" ry="3"/>
+    <text x="73" y="151" text-anchor="middle" dominant-baseline="middle">BLAKE</text>
+    <path d="M 33,141 C 43,141 43,151 53,151"/>
+    <rect style="fill:HotPink" x="113" y="1" width="40" height="20" rx="3" ry="3"/>
+    <text x="133" y="11" text-anchor="middle" dominant-baseline="middle">SCOTT</text>
+    <path d="M 93,31 C 103,31 103,11 113,11"/>
+    <rect style="fill:DarkOrange" x="113" y="241" width="48" height="20" rx="3" ry="3"/>
+    <text x="137" y="251" text-anchor="middle" dominant-baseline="middle">MILLER</text>
+    <path d="M 93,251 C 103,251 103,251 113,251"/>
+    <rect style="fill:LightGreen" x="113" y="201" width="40" height="20" rx="3" ry="3"/>
+    <text x="133" y="211" text-anchor="middle" dominant-baseline="middle">JAMES</text>
+    <path d="M 93,151 C 103,151 103,211 113,211"/>
+    <rect style="fill:LightGreen" x="113" y="171" width="48" height="20" rx="3" ry="3"/>
+    <text x="137" y="181" text-anchor="middle" dominant-baseline="middle">TURNER</text>
+    <path d="M 93,151 C 103,151 103,181 113,181"/>
+    <rect style="fill:LightGreen" x="113" y="141" width="48" height="20" rx="3" ry="3"/>
+    <text x="137" y="151" text-anchor="middle" dominant-baseline="middle">MARTIN</text>
+    <path d="M 93,151 C 103,151 103,151 113,151"/>
+    <rect style="fill:LightGreen" x="113" y="111" width="32" height="20" rx="3" ry="3"/>
+    <text x="129" y="121" text-anchor="middle" dominant-baseline="middle">WARD</text>
+    <path d="M 93,151 C 103,151 103,121 113,121"/>
+    <rect style="fill:LightGreen" x="113" y="81" width="40" height="20" rx="3" ry="3"/>
+    <text x="133" y="91" text-anchor="middle" dominant-baseline="middle">ALLEN</text>
+    <path d="M 93,151 C 103,151 103,91 113,91"/>
+    <rect style="fill:HotPink" x="113" y="41" width="32" height="20" rx="3" ry="3"/>
+    <text x="129" y="51" text-anchor="middle" dominant-baseline="middle">FORD</text>
+    <path d="M 93,31 C 103,31 103,51 113,51"/>
+    <rect style="fill:HotPink" x="181" y="1" width="40" height="20" rx="3" ry="3"/>
+    <text x="201" y="11" text-anchor="middle" dominant-baseline="middle">ADAMS</text>
+    <path d="M 153,11 C 163,11 171,11 181,11"/>
+    <rect style="fill:HotPink" x="181" y="41" width="40" height="20" rx="3" ry="3"/>
+    <text x="201" y="51" text-anchor="middle" dominant-baseline="middle">SMITH</text>
+    <path d="M 145,51 C 155,51 171,51 181,51"/>
+  </g>
+</svg>

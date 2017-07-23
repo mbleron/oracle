@@ -1,7 +1,7 @@
 # TreeBuilder - a PL/SQL graphical tree generator
 
 TreeBuilder computes the set of node coordinates necessary to represent a single-rooted tree in a graphical environment.  
-Node positioning is implemented using the improved version of [Walker's algorithm](http://www.cs.unc.edu/techreports/89-034.pdf), published by Buchheim, Jünger and Leipert :  
+Node positioning is implemented using the improved version of [Walker's algorithm](http://www.cs.unc.edu/techreports/89-034.pdf), published by Buchheim, JÃ¼nger and Leipert :  
 <http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.8757>
 
 Tree data is exposed as a pipelined function.  
@@ -28,7 +28,7 @@ TreeBuilder expects a hierarchically-ordered data source, with two mandatory col
 
 The data source is provided through a REF cursor.
 
-<br>
+
 ### Tree properties
 
 The following properties are available to customize the tree representation as SVG : 
@@ -42,7 +42,7 @@ The following properties are available to customize the tree representation as S
 | orientation | tree orientation - (ORIENT_TOP_BOTTOM \| ORIENT_LEFT_RIGHT)
 | defaultStyle | CSS string, overridable at node level
 
-<br>
+
 ### Examples
 
 
@@ -94,7 +94,7 @@ begin
 end;
 /
 ```
-<br>
+
 2\. Left-right orientation with Bezier connections : 
 
 [tree2.svg](./svg/tree2.svg)

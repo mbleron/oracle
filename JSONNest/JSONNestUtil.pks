@@ -18,6 +18,11 @@ create or replace package JSONNestUtil is
     ctx_id in pls_integer
   )
   return clob;
+  
+  function getDocument (
+    rc in sys_refcursor
+  ) 
+  return clob;
 
 end JSONNestUtil;
 /

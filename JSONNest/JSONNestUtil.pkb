@@ -145,6 +145,23 @@ create or replace package body JSONNestUtil is
     
   end;
   
+  
+  function getDocument (rc in sys_refcursor) 
+  return clob
+  is
+    ctx_id  pls_integer;
+    item    JSONNestItem := JSONNestItem(null, null, null);
+  begin
+    ctx_id := createContext();
+    loop
+      fetch rc into item.item_level, item.json_content, item.wrapper;
+      exit when rc%notfound;
+      iterate(ctx_id, item);
+    end loop;
+    close rc;
+    return terminate(ctx_id);
+  end;
+  
 
 end JSONNestUtil;
 /
